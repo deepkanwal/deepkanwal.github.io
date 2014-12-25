@@ -1,0 +1,72 @@
+$font-default: 'Roboto', sans-serif;
+$color-gray: #696969;
+
+* {
+  font-family: $font-default;
+  font-size: 14px;
+  font-weight: 300;
+  -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+}
+
+body {
+	width: 600px;
+	padding: 40px;
+}
+
+h1, h2 {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 18px;	
+}
+
+header {
+	padding-bottom: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: $color-gray;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	margin:0;
+	padding-top: 5px;
+}
+
+footer {
+	clear: both;
+	padding-top: 40px;
+}
+
+.bold {
+	font-weight: 400;
+}
+
+.projects {
+	padding-top: 20px;
+
+	.project {
+		padding-bottom: 15px;
+		clear: both;
+		
+		.icon {
+			float:left;
+			height: 80px;
+			width: 80px;
+			margin: 15px 15px 15px 0;
+		}
+
+		.description {
+			padding-top: 15px;
+			display: inline-block;
+			float:left;
+		}
+	}
+}
