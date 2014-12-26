@@ -1,5 +1,6 @@
 $font-default: 'Roboto', sans-serif;
 $color-gray: #696969;
+$width-mobile: 600px;
 
 * {
   font-family: $font-default;
@@ -9,8 +10,13 @@ $color-gray: #696969;
 }
 
 body {
-	width: 600px;
-	padding: 40px;
+	max-width: 100%;
+	padding: 20px 40px;
+
+	@media screen and (max-width: $width-mobile) {
+		padding: 20px;
+	}
+
 }
 
 h1, h2 {
@@ -23,7 +29,7 @@ h1 {
 }
 
 header {
-	padding-bottom: 25px;
+	padding-bottom: 10px;
 }
 
 a {
@@ -43,16 +49,30 @@ p {
 footer {
 	clear: both;
 	padding-top: 40px;
+
+	@media screen and (max-width: $width-mobile) {
+		padding-top: 20px;
+	}
 }
 
 .bold {
 	font-weight: 400;
 }
 
+.social {
+	padding-top: 20px;
+}
+
 .projects {
+
 	padding-top: 20px;
 
+	@media screen and (max-width: $width-mobile) {
+		padding-top: 10px;
+	}
+
 	.project {
+
 		padding-bottom: 15px;
 		clear: both;
 		
@@ -61,12 +81,24 @@ footer {
 			height: 80px;
 			width: 80px;
 			margin: 15px 15px 15px 0;
+
+			@media screen and (max-width: $width-mobile) {
+				clear:both;
+				margin: 15px 15px 0 0;
+			}
 		}
 
 		.description {
 			padding-top: 15px;
+			padding-bottom: 0px;
 			display: inline-block;
 			float:left;
+
+			@media screen and (max-width: $width-mobile) {
+				padding-top: 10px;
+				padding-bottom: 15px;
+				clear:both;
+			}
 		}
 	}
 }

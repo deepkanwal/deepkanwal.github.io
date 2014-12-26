@@ -6,8 +6,11 @@
   /* Prevent font scaling in landscape */ }
 
 body {
-  width: 600px;
-  padding: 40px; }
+  max-width: 100%;
+  padding: 20px 40px; }
+  @media screen and (max-width: 600px) {
+    body {
+      padding: 20px; } }
 
 h1, h2 {
   font-size: 16px;
@@ -17,7 +20,7 @@ h1 {
   font-size: 18px; }
 
 header {
-  padding-bottom: 25px; }
+  padding-bottom: 10px; }
 
 a {
   text-decoration: none;
@@ -33,12 +36,21 @@ p {
 footer {
   clear: both;
   padding-top: 40px; }
+  @media screen and (max-width: 600px) {
+    footer {
+      padding-top: 20px; } }
 
 .bold {
   font-weight: 400; }
 
+.social {
+  padding-top: 20px; }
+
 .projects {
   padding-top: 20px; }
+  @media screen and (max-width: 600px) {
+    .projects {
+      padding-top: 10px; } }
   .projects .project {
     padding-bottom: 15px;
     clear: both; }
@@ -47,9 +59,19 @@ footer {
       height: 80px;
       width: 80px;
       margin: 15px 15px 15px 0; }
+      @media screen and (max-width: 600px) {
+        .projects .project .icon {
+          clear: both;
+          margin: 15px 15px 0 0; } }
     .projects .project .description {
       padding-top: 15px;
+      padding-bottom: 0px;
       display: inline-block;
       float: left; }
+      @media screen and (max-width: 600px) {
+        .projects .project .description {
+          padding-top: 10px;
+          padding-bottom: 15px;
+          clear: both; } }
 
 /*# sourceMappingURL=style.css.map */
