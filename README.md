@@ -1,4 +1,6 @@
-www.deepkanwal.com
+Personal Site
 ====================
 
-Personal landing page.
+Personal website for my projects and contact info. 
+
+www.deepkanwal.com
