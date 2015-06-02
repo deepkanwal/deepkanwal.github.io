@@ -25,7 +25,7 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 18px;	
+	font-size: 18px;
 }
 
 header {
@@ -61,6 +61,7 @@ footer {
 
 .social {
 	padding-top: 20px;
+  clear:both;
 }
 
 .projects {
@@ -75,7 +76,7 @@ footer {
 
 		padding-bottom: 15px;
 		clear: both;
-		
+
 		.icon {
 			float:left;
 			height: 80px;
