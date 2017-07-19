@@ -35,10 +35,10 @@ p {
 
 footer {
   clear: both;
-  padding-top: 40px; }
+  padding-top: 20px; }
   @media screen and (max-width: 600px) {
     footer {
-      padding-top: 20px; } }
+      padding-top: 10px; } }
 
 .bold {
   font-weight: 400; }
@@ -48,12 +48,13 @@ footer {
   clear: both; }
 
 .projects {
-  padding-top: 20px; }
+  padding-top: 1px;
+  clear: both; }
   @media screen and (max-width: 600px) {
     .projects {
       padding-top: 10px; } }
   .projects .project {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     clear: both; }
     .projects .project .icon {
       float: left;
@@ -65,7 +66,7 @@ footer {
           clear: both;
           margin: 15px 15px 0 0; } }
     .projects .project .description {
-      padding-top: 15px;
+      padding-top: 10px;
       padding-bottom: 0px;
       display: inline-block;
       float: left; }
@@ -74,5 +75,23 @@ footer {
           padding-top: 10px;
           padding-bottom: 15px;
           clear: both; } }
+    .projects .project .blurb {
+      max-width: 500px; }
+
+.drawings {
+  clear: both;
+  padding-top: 10px; }
+  .drawings h2 {
+    padding-bottom: 10px; }
+  .drawings .drawing {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left; }
+    .drawings .drawing img {
+      height: 150px;
+      width: 150px;
+      border-style: solid;
+      border-width: 5px;
+      border-color: #d6d5d1; }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,8 +10,11 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,600,700">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,300' type='text/css'>
+    <link rel="stylesheet" href="css/lightbox.css"">
 
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
 
     <!-- Favicons (generated at faviconit.com) -->
     <link rel="shortcut icon" href="/favicon.ico">
@@ -47,20 +50,58 @@
     </header>
 
     <div class="about">
-        <p> Fourth year computer engineering student at the University of Toronto. </p>
-        <p> Contact: <a href="mailto:deepkanwal@gmail.com"> deepkanwal@gmail.com </a> </p>
+        <p> Social: 
+            <a href="http://www.linkedin.com/in/deepkanwal">LinkedIn</a> /
+            <a href="https://github.com/deepkanwal">GitHub</a> /
+            <a href="https://www.goodreads.com/deepkanwal">Goodreads</a> 
+        </p>
+        <p> Contact: <a href="mailto:deepkanwal@gmail.com"> deepkanwal@gmail.com</a></p>
+    </div>
+
+    <div class="drawings">
+        <h2> Drawings </h2>
+        <div class="drawing">
+            <a href="img/draw_gurminder.png" data-lightbox="screens" data-title="Gurminder">
+                <img src="img/sq_gurminder.png" alt="Gurminder">
+            </a>
+        </div>
+        <div class="drawing">
+            <a href="img/draw_rattan.png" data-lightbox="screens" data-title="Rattan">
+                <img src="img/sq_rattan.png" alt="Rattan">
+            </a>
+        </div>
+        <div class="drawing">
+            <a href="img/draw_sonu.png" data-lightbox="screens" data-title="Sonu">
+                <img src="img/sq_sonu.png" alt="Sonu">
+            </a>
+        </div>
     </div>
 
     <div class="projects">
-        <h2> Personal Projects </h2>
+        <h2> Projects </h2>
+        <div class="project">
+            <a href="http://www.toyengineapp.com/">
+                <img class="icon" src="img/icon_toyengine.png" alt="Fine Tuner Icon"/>
+            </a>
+            <div class="description">
+                <p> <span class="bold"> Toy Engine </span> / 2015 </p>
+                <div class="blurb">
+                <p> iPad app for creating side-scrolling games with visual scripting. </p>
+                <p> Built as a university design project with <a href="https://www.linkedin.com/in/rick-buczynski-5a9515a4/">Rick Buczynski</a>.</p>
+                </div>
+                <p> <a href="http://www.toyengineapp.com/">Official Site</a> - <a href="http://gizmodo.com/cant-code-this-ipad-app-will-easily-let-you-make-your-1709348698">Gizmodo Article</a>
+            </div>
+        </div>
         <div class="project">
             <a href="https://itunes.apple.com/app/fine-tuner-minimalistic-tuner/id877102884?mt=8dee">
                 <img class="icon" src="img/icon_finetuner.png" alt="Fine Tuner Icon"/>
             </a>
             <div class="description">
-                <p> <span class="bold"> Fine Tuner </span> / 2104 </p>
-                <p> Chromatic instrument tuner for iOS. </p>
-                <p> <a href="https://itunes.apple.com/app/fine-tuner-minimalistic-tuner/id877102884?mt=8dee">iTunes</a> - <a href="http://www.finetunerapp.com/">Official Site</a> - <a href="https://vimeo.com/95971581">Video</a> </p>
+                <p> <span class="bold"> Fine Tuner </span> / 2014 </p>
+                <div class="blurb">
+                <p> Chromatic instrument tuner for iOS. 500,000+ downloads. </p>
+                </div>
+                <p> <a href="http://www.finetunerapp.com/">Official Site</a> - <a href="https://itunes.apple.com/app/fine-tuner-minimalistic-tuner/id877102884?mt=8dee">iTunes</a> - <a href="https://vimeo.com/95971581">Video</a> </p>
             </div>
         </div>
         <div class="project">
@@ -69,7 +110,9 @@
             </a>
             <div class="description">
                 <p> <span class="bold">Videogame Backlog Manager </span> / 2013 </p>
+                <div class="blurb">
                 <p> Videogame backlog and collection management app for iOS. </p>
+                </div>
                 <p> <a href="https://itunes.apple.com/us/app/videogame-backlog-manager/id721103739">iTunes</a> - <a href="https://github.com/deepkanwal/vbm">GitHub</a></p>
             </div>
         </div>
@@ -79,24 +122,15 @@
             </a>
             <div class="description">
                 <p> <span class="bold"> Flip'd </span> / 2012 </p>
-                <p> 2D puzzle platformer for Windows. </p>
+                <div class="blurb">
+                <p> 2D puzzle platformer for Windows built using C++. </p>
+                </div>
                 <p> <a href="https://github.com/deepkanwal/flip-d">Github</a> - <a href="http://www.deepkanwal.com/files/flipd.zip">Download</a> - <a href="http://www.youtube.com/watch?v=83xBFyLlolw">Video</a> </p>
             </div>
         </div>
     </div>
-
-    <div class="social">
-      <p>
-        <a href="https://github.com/deepkanwal">GitHub</a> /
-        <a href="http://www.linkedin.com/in/deepkanwal">LinkedIn</a> /
-        <a href="https://www.behance.net/deepkanwal">Behance</a> /
-        <a href="https://www.goodreads.com/deepkanwal">Goodreads</a> /
-        <a href="https://twitter.com/deepkanwalplaha">Twitter</a>
-      </p>
-    </div>
-
     <footer>
-        <p> 2015 © Deepkanwal Plaha </p>
+        <p> 2017 © Deepkanwal Plaha </p>
     </footer>
 
     <!-- Google Analytics -->

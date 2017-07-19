@@ -48,10 +48,10 @@ p {
 
 footer {
 	clear: both;
-	padding-top: 40px;
+	padding-top: 20px;
 
 	@media screen and (max-width: $width-mobile) {
-		padding-top: 20px;
+		padding-top: 10px;
 	}
 }
 
@@ -61,12 +61,12 @@ footer {
 
 .social {
 	padding-top: 20px;
-  clear:both;
+  	clear:both;
 }
 
 .projects {
-
-	padding-top: 20px;
+	padding-top: 1px;
+	clear:both;
 
 	@media screen and (max-width: $width-mobile) {
 		padding-top: 10px;
@@ -74,7 +74,7 @@ footer {
 
 	.project {
 
-		padding-bottom: 15px;
+		padding-bottom: 20px;
 		clear: both;
 
 		.icon {
@@ -90,7 +90,7 @@ footer {
 		}
 
 		.description {
-			padding-top: 15px;
+			padding-top: 10px;
 			padding-bottom: 0px;
 			display: inline-block;
 			float:left;
@@ -100,6 +100,35 @@ footer {
 				padding-bottom: 15px;
 				clear:both;
 			}
+		}
+
+		.blurb {
+			max-width: 500px;
+		}
+	}
+}
+
+.drawings {
+	
+  	clear:both;
+	padding-top: 10px;
+
+	h2 {
+		padding-bottom: 10px;
+	}
+
+	.drawing {
+
+		padding-right: 20px;
+		padding-bottom: 20px;
+		float:left;
+
+		img {
+			height: 150px;
+			width: 150px;
+			border-style: solid;
+    		border-width: 5px;
+    		border-color: #d6d5d1;
 		}
 	}
 }
