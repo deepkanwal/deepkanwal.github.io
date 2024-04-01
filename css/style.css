@@ -3,95 +3,138 @@
   font-size: 14px;
   font-weight: 300;
   -webkit-text-size-adjust: none;
-  /* Prevent font scaling in landscape */ }
+  /* Prevent font scaling in landscape */
+}
 
 body {
   max-width: 100%;
-  padding: 20px 40px; }
-  @media screen and (max-width: 600px) {
-    body {
-      padding: 20px; } }
+  padding: 20px 40px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+}
 
-h1, h2 {
+h1,
+h2 {
   font-size: 16px;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 h1 {
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 header {
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+}
 
 a {
   text-decoration: none;
-  color: #696969; }
+  color: #696969;
+}
 
 a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 p {
   margin: 0;
-  padding-top: 5px; }
+  padding-top: 5px;
+}
 
 footer {
   clear: both;
-  padding-top: 20px; }
-  @media screen and (max-width: 600px) {
-    footer {
-      padding-top: 10px; } }
+  padding-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  footer {
+    padding-top: 10px;
+  }
+}
 
 .bold {
-  font-weight: 400; }
+  font-weight: 400;
+}
+
+.about {
+  padding-bottom: 8px;
+}
 
 .social {
   padding-top: 20px;
-  clear: both; }
+  clear: both;
+}
 
 .projects {
   padding-top: 1px;
-  clear: both; }
-  @media screen and (max-width: 600px) {
-    .projects {
-      padding-top: 10px; } }
-  .projects .project {
-    padding-bottom: 20px;
-    clear: both; }
-    .projects .project .icon {
-      float: left;
-      height: 80px;
-      width: 80px;
-      margin: 15px 15px 15px 0; }
-      @media screen and (max-width: 600px) {
-        .projects .project .icon {
-          clear: both;
-          margin: 15px 15px 0 0; } }
-    .projects .project .description {
-      padding-top: 10px;
-      padding-bottom: 0px;
-      display: inline-block;
-      float: left; }
-      @media screen and (max-width: 600px) {
-        .projects .project .description {
-          padding-top: 10px;
-          padding-bottom: 15px;
-          clear: both; } }
-    .projects .project .blurb {
-      max-width: 500px; }
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .projects {
+    padding-top: 10px;
+  }
+}
+.projects .project {
+  padding-bottom: 20px;
+  clear: both;
+}
+
+.projects .project .seperator {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.projects .project .icon {
+  float: left;
+  height: 80px;
+  width: 80px;
+  margin: 15px 15px 15px 0;
+}
+@media screen and (max-width: 600px) {
+  .projects .project .icon {
+    clear: both;
+    margin: 15px 15px 0 0;
+  }
+}
+.projects .project .description {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  display: inline-block;
+}
+@media screen and (max-width: 600px) {
+  .projects .project .description {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    clear: both;
+  }
+}
+.projects .project .blurb {
+  padding-top: 4px;
+  max-width: 500px;
+}
+
+.projects .project .links {
+  padding-top: 8px;
+}
 
 .drawings {
   clear: both;
-  padding-top: 10px; }
-  .drawings h2 {
-    padding-bottom: 10px; }
-  .drawings .drawing {
-    padding-right: 20px;
-    padding-bottom: 20px;
-    float: left; }
-    .drawings .drawing img {
-      height: 150px;
-      width: 150px;
-      border-style: solid;
-      border-width: 5px;
-      border-color: #d6d5d1; }
-
-/*# sourceMappingURL=style.css.map */
+  padding-top: 10px;
+}
+.drawings h2 {
+  padding-bottom: 10px;
+}
+.drawings .drawing {
+  padding-right: 20px;
+  padding-bottom: 20px;
+  float: left;
+}
+.drawings .drawing img {
+  height: 150px;
+  width: 150px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #d6d5d1;
+}
